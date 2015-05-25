@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Html:</strong>
+  <%= @page.html %>
+</p>
+
+<p>
+  <strong>Css:</strong>
+  <%= @page.css %>
+</p>
+
+<p>
+  <strong>Js:</strong>
+  <%= @page.js %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @page.user %>
+</p>
+
+<p>
+  <strong>Template:</strong>
+  <%= @page.template %>
+</p>
+
+<%= link_to 'Edit', edit_page_path(@page) %> |
+<%= link_to 'Back', pages_path %>
