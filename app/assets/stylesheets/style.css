@@ -142,10 +142,23 @@ section {
         top: 0; left: 0; bottom: 0; right: 0;
     }
 }
-  
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 10;
+  padding: 0;
+  background-color: rgba(0,0,0,0.5);  
+  height: 100%;
+  width: 100%;
+/*  background-size: contain;
+*/} 
+
 #section1 {
   background:center no-repeat fixed url('https://download.unsplash.com/photo-1427348693976-99e4aca06bb9');	
 /*  background-color: rgba(0,0,0,0.7);*/
+/*  opacity: 0.9;*/
   background-size: cover; 	
   color:#fff;
 	font-family: 'Bitter', serif;
